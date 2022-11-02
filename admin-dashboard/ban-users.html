@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ban-Users</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="./assets/fonts/css/font-awesome.min.css" />
+  <!-- vendor -->
+  <link rel="stylesheet" href="./assets/css/vendor.css" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body class="light" id="theme">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-2 bg-white p-0">
+        <header class="d-flex flex-column justify-content-between">
+          <div>
+            <div class="row justify-content-center">
+              <div class="col-8">
+                <div class="logo mt-3">
+                  <a href="./index.html">
+                    <img data-src="./assets/img/logo-udated.png" alt="logo" class="lozad" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-6 text-center mt-lg-5 mt-4">
+                <a
+                  href="javascript:void(0)"
+                  class="d-flex justify-content-center"
+                >
+                  <div class="admin-db-img">
+                    <img
+                      data-src="./assets/img/admin dashboard/admin-img.jpg"
+                      alt="admin-img"
+                      class="lozad"
+                    />
+                  </div>
+                </a>
+                <div>
+                  <h4 class="f-15 fw-600 mb-1 mt-3">
+                    <a href="javascript:void(0)" class="prof-name">Vittle</a>
+                  </h4>
+                  <h3 class="f-15 fw-400 user-input-clr mb-0">Owner</h3>
+                </div>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-10 bt-gray mt-lg-4 mt-3 p-0 d-flex flex-column align-items-center">
+                <div>
+                  <a
+                    href="./index.html"
+                    class="btn green bg-pink clr-white f-15 g-btn mt-xl-5 mt-3 rounded-3"
+                  >
+                    <i class="fa fa-home f-22 me-1" aria-hidden="true"></i>
+                    Dashboard
+                  </a>
+                </div>
+                <ul class="ps-xxl-3 ps-1 admin-links">
+                  <li class="d-flex justify-content-start align-items-center mt-4">
+                    <i class="fa fa-circle-thin f-10 fw-600 mb-1" aria-hidden="true"></i>
+                    <span class="f-15 para-clr fw-500 ms-lg-3 ms-2">
+                      <a href="./user-perms.html" class="forgot">Change user perms</a></span>
+                  </li>
+                  <li class="d-flex justify-content-start align-items-center mt-2">
+                    <i class="fa fa-circle-thin f-10 fw-600 mb-1" aria-hidden="true"></i>
+                    <span class="f-15 para-clr fw-500 ms-lg-3 ms-2">
+                      <a href="./suspended-accounts.html" class="forgot">Suspend accounts</a></span>
+                  </li>
+                  <li class="d-flex justify-content-start align-items-center mt-2">
+                    <i class="fa fa-circle f-10 fw-600 mb-1 clr-pink" aria-hidden="true"></i>
+                    <span class="f-15 para-clr fw-500 ms-lg-3 ms-2">
+                      <a href="./ban-users.html" class="forgot clr-pink">Ban Users</a></span>
+                  </li>
+                  <li class="d-flex justify-content-start align-items-center mt-2">
+                    <i class="fa fa-circle-thin f-10 fw-600 mb-1" aria-hidden="true"></i>
+                    <span class="f-15 para-clr fw-500 ms-lg-3 ms-2">
+                      <a href="./announcements.html" class="forgot">Announcement</a></span>
+                  </li>
+                  <li class="d-flex justify-content-start align-items-center mt-2">
+                    <i class="fa fa-circle-thin f-10 fw-600 mb-1" aria-hidden="true"></i>
+                    <span class="f-15 para-clr fw-500 ms-lg-3 ms-2">
+                      <a href="./hashtags-review.html" class="forgot">Review & Hash Tags</a></span>
+                  </li>
+                  <li class="d-flex justify-content-start align-items-center mt-2">
+                    <i class="fa fa-circle-thin f-10 fw-600 mb-1" aria-hidden="true"></i>
+                    <span class="f-15 para-clr fw-500 ms-lg-3 ms-2">
+                      <a href="./all-users.html" class="forgot">All Users</a></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-start align-items-end">
+            <button type="submit" class="btn green w-100 d-logout ms-0 g-btn f-14">
+              <i class="fa fa-sign-out me-1" aria-hidden="true"></i>Logout
+            </button>
+          </div>
+        </header>
+      </div>
+      <div class="col-md-10">
+        <nav>
+          <div
+            class="row justify-content-md-end justify-content-between align-items-center py-lg-1 bg-white py-md-0 py-2">
+            <div class="col-xl-3 col-lg-4 col-md-5 col-10">
+              <div class="search me-lg-5 position-relative py-md-2">
+                <input type="text" placeholder="Search"
+                  class="search-input bg-input border-0 user-input-clr ps-5 bs-none form-control" />
+                <button class="fa fa-search user-input-clr position-absolute top-0 f-17"></button>
+              </div>
+            </div>
+            <div class="col-2 d-md-none d-block text-end">
+              <span><i class="fa fa-home f-34 clr-pink home-db" aria-hidden="true"></i></span>
+            </div>
+          </div>
+        </nav>
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+            <div class="col-xxl-10 col-xl-11 col-12">
+              <div class="d-flex justify-content-between align-items-center my-5 mb-xl-5 mb-3">
+                <h1 class="f-30 fw-600 mb-0">Ban Users</h1>
+                <div class="search position-relative py-md-2 ban-search d-md-block d-none">
+                  <input type="text" placeholder="Search User Here. . "
+                    class="search-input bg-input border-0 user-input-clr ps-5 bs-none form-control" />
+                  <button class="fa fa-search user-input-clr position-absolute top-0 f-17"></button>
+                </div>
+              </div>
+              <div class="bg-admin-db admin-d-body rounded-3">
+                <div class="bg-white ban-users rounded-3 table-responsive">
+                  <div class="table-responsive">
+                    <table class="table">
+                      <thead class="clr-pink">
+                        <tr>
+                          <th scope="row" width="5%" class="f-20 ">#</th>
+                          <th colspan="2" class="f-20 ">Accounts</th>
+                          <th class="f-20 ">Banned Date</th>
+                          <th class="f-20 ">Banned Reason</th>
+                          
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="align-middle">
+                          <th scope="row" class="" width="5%">1</th>
+                          <td colspan="2">
+                           <div class="d-flex justify-content-start align-items-center flex-md-row flex-column">
+                            <div class="admin-users me-md-2 mb-md-0 mb-2">
+                              <img data-src="./assets/img/admin dashboard/ban-u.jpg" alt="ban-user"
+                                class="lozad d-inline" />
+                            </div>
+                            <h6 class="f-15 fw-600 mb-0 w-100 ms-md-0 ms-4 f-15">
+                              <a href="javascript:void(0)" class="forgot">Emilie Johnson</a>
+                            </h6>
+                           </div>
+                          </td>
+                          <td>
+                            <h5 class="f-15 fw-600 mb-0">Banned On</h5>
+                            <h6 class="f-15 user-input-clr mb-0">22/3/2022</h5>
+                          </td>
+                          <td class="unban">
+                            <p class="f-12 mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                              nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                          </td>
+                          <td class="notif-panel">
+                            <button class="btn green f-13 unban">Unban</button>
+                          </td>
+                        </tr>
+                        <tr class="align-middle">
+                          <th scope="row" class="" width="5%">1</th>
+                          <td colspan="2">
+                           <div class="d-flex justify-content-start align-items-center flex-md-row flex-column">
+                            <div class="admin-users me-md-2 mb-md-0 mb-2">
+                              <img data-src="./assets/img/admin dashboard/ban-u.jpg" alt="ban-user"
+                                class="lozad d-inline" />
+                            </div>
+                            <h6 class="f-15 fw-600 mb-0 w-100 ms-md-0 ms-4 f-15">
+                              <a href="javascript:void(0)" class="forgot">Emilie Johnson</a>
+                            </h6>
+                           </div>
+                          </td>
+                          <td>
+                            <h5 class="f-15 fw-600 mb-0">Banned On</h5>
+                            <h6 class="f-15 user-input-clr mb-0">22/3/2022</h5>
+                          </td>
+                          <td class="unban">
+                            <p class="f-12 mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                              nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                          </td>
+                          <td class="notif-panel">
+                            <button class="btn green f-13 unban">Unban</button>
+                          </td>
+                        </tr>
+                        <tr class="align-middle">
+                          <th scope="row" class="" width="5%">1</th>
+                          <td colspan="2">
+                           <div class="d-flex justify-content-start align-items-center flex-md-row flex-column">
+                            <div class="admin-users me-md-2 mb-md-0 mb-2">
+                              <img data-src="./assets/img/admin dashboard/ban-u.jpg" alt="ban-user"
+                                class="lozad d-inline" />
+                            </div>
+                            <h6 class="f-15 fw-600 mb-0 w-100 ms-md-0 ms-4 f-15">
+                              <a href="javascript:void(0)" class="forgot">Emilie Johnson</a>
+                            </h6>
+                           </div>
+                          </td>
+                          <td>
+                            <h5 class="f-15 fw-600 mb-0">Banned On</h5>
+                            <h6 class="f-15 user-input-clr mb-0">22/3/2022</h5>
+                          </td>
+                          <td class="unban">
+                            <p class="f-12 mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                              nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                          </td>
+                          <td class="notif-panel">
+                            <button class="btn green f-13 unban">Unban</button>
+                          </td>
+                        </tr>
+                        <tr class="align-middle">
+                          <th scope="row" class="" width="5%">1</th>
+                          <td colspan="2">
+                           <div class="d-flex justify-content-start align-items-center flex-md-row flex-column">
+                            <div class="admin-users me-md-2 mb-md-0 mb-2">
+                              <img data-src="./assets/img/admin dashboard/ban-u.jpg" alt="ban-user"
+                                class="lozad d-inline" />
+                            </div>
+                            <h6 class="f-15 fw-600 mb-0 w-100 ms-md-0 ms-4 f-15">
+                              <a href="javascript:void(0)" class="forgot">Emilie Johnson</a>
+                            </h6>
+                           </div>
+                          </td>
+                          <td>
+                            <h5 class="f-15 fw-600 mb-0">Banned On</h5>
+                            <h6 class="f-15 user-input-clr mb-0">22/3/2022</h5>
+                          </td>
+                          <td class="unban">
+                            <p class="f-12 mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                              nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                          </td>
+                          <td class="notif-panel">
+                            <button class="btn green f-13 unban">Unban</button>
+                          </td>
+                        </tr>
+                        <tr class="align-middle">
+                          <th scope="row" class="" width="5%">1</th>
+                          <td colspan="2">
+                           <div class="d-flex justify-content-start align-items-center flex-md-row flex-column">
+                            <div class="admin-users me-md-2 mb-md-0 mb-2">
+                              <img data-src="./assets/img/admin dashboard/ban-u.jpg" alt="ban-user"
+                                class="lozad d-inline" />
+                            </div>
+                            <h6 class="f-15 fw-600 mb-0 w-100 ms-md-0 ms-4 f-15">
+                              <a href="javascript:void(0)" class="forgot">Emilie Johnson</a>
+                            </h6>
+                           </div>
+                          </td>
+                          <td>
+                            <h5 class="f-15 fw-600 mb-0">Banned On</h5>
+                            <h6 class="f-15 user-input-clr mb-0">22/3/2022</h5>
+                          </td>
+                          <td class="unban">
+                            <p class="f-12 mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                              nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                          </td>
+                          <td class="notif-panel">
+                            <button class="btn green f-13 unban">Unban</button>
+                          </td>
+                        </tr>
+                        <tr class="align-middle">
+                          <th scope="row" class="" width="5%">1</th>
+                          <td colspan="2">
+                           <div class="d-flex justify-content-start align-items-center flex-md-row flex-column">
+                            <div class="admin-users me-md-2 mb-md-0 mb-2">
+                              <img data-src="./assets/img/admin dashboard/ban-u.jpg" alt="ban-user"
+                                class="lozad d-inline" />
+                            </div>
+                            <h6 class="f-15 fw-600 mb-0 w-100 ms-md-0 ms-4 f-15">
+                              <a href="javascript:void(0)" class="forgot">Emilie Johnson</a>
+                            </h6>
+                           </div>
+                          </td>
+                          <td>
+                            <h5 class="f-15 fw-600 mb-0">Banned On</h5>
+                            <h6 class="f-15 user-input-clr mb-0">22/3/2022</h5>
+                          </td>
+                          <td class="unban">
+                            <p class="f-12 mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                              nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                          </td>
+                          <td class="notif-panel">
+                            <button class="btn green f-13 unban">Unban</button>
+                          </td>
+                        </tr>
+                        <tr class="align-middle">
+                          <th scope="row" class="" width="5%">1</th>
+                          <td colspan="2">
+                           <div class="d-flex justify-content-start align-items-center flex-md-row flex-column">
+                            <div class="admin-users me-md-2 mb-md-0 mb-2">
+                              <img data-src="./assets/img/admin dashboard/ban-u.jpg" alt="ban-user"
+                                class="lozad d-inline" />
+                            </div>
+                            <h6 class="f-15 fw-600 mb-0 w-100 ms-md-0 ms-4 f-15">
+                              <a href="javascript:void(0)" class="forgot">Emilie Johnson</a>
+                            </h6>
+                           </div>
+                          </td>
+                          <td>
+                            <h5 class="f-15 fw-600 mb-0">Banned On</h5>
+                            <h6 class="f-15 user-input-clr mb-0">22/3/2022</h5>
+                          </td>
+                          <td class="unban">
+                            <p class="f-12 mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                              nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                          </td>
+                          <td class="notif-panel">
+                            <button class="btn green f-13 unban">Unban</button>
+                          </td>
+                        </tr>
+                        <tr class="align-middle">
+                          <th scope="row" class="" width="5%">1</th>
+                          <td colspan="2">
+                           <div class="d-flex justify-content-start align-items-center flex-md-row flex-column">
+                            <div class="admin-users me-md-2 mb-md-0 mb-2">
+                              <img data-src="./assets/img/admin dashboard/ban-u.jpg" alt="ban-user"
+                                class="lozad d-inline" />
+                            </div>
+                            <h6 class="f-15 fw-600 mb-0 w-100 ms-md-0 ms-4 f-15">
+                              <a href="javascript:void(0)" class="forgot">Emilie Johnson</a>
+                            </h6>
+                           </div>
+                          </td>
+                          <td>
+                            <h5 class="f-15 fw-600 mb-0">Banned On</h5>
+                            <h6 class="f-15 user-input-clr mb-0">22/3/2022</h5>
+                          </td>
+                          <td class="unban">
+                            <p class="f-12 mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                              nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                          </td>
+                          <td class="notif-panel">
+                            <button class="btn green f-13 unban">Unban</button>
+                          </td>
+                        </tr>
+                        <tr class="align-middle">
+                          <th scope="row" class="" width="5%">1</th>
+                          <td colspan="2">
+                           <div class="d-flex justify-content-start align-items-center flex-md-row flex-column">
+                            <div class="admin-users me-md-2 mb-md-0 mb-2">
+                              <img data-src="./assets/img/admin dashboard/ban-u.jpg" alt="ban-user"
+                                class="lozad d-inline" />
+                            </div>
+                            <h6 class="f-15 fw-600 mb-0 w-100 ms-md-0 ms-4 f-15">
+                              <a href="javascript:void(0)" class="forgot">Emilie Johnson</a>
+                            </h6>
+                           </div>
+                          </td>
+                          <td>
+                            <h5 class="f-15 fw-600 mb-0">Banned On</h5>
+                            <h6 class="f-15 user-input-clr mb-0">22/3/2022</h5>
+                          </td>
+                          <td class="unban">
+                            <p class="f-12 mb-0">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                              nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                          </td>
+                          <td class="notif-panel">
+                            <button class="btn green f-13 unban">Unban</button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ----------************* JS -->
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/plugin.js"></script>
+  <script src="./assets/js/app.js"></script>
+</body>
+
+</html>

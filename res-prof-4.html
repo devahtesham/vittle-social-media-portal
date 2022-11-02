@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="robots" content="noindex, nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&family=Montserrat&family=Raleway:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="./assets/fonts/css/font-awesome.min.css" />
+    <!-- vendor -->
+    <link rel="stylesheet" href="./assets/css/vendor.css" />
+    <!-- slick -->
+    <link rel="stylesheet" href="./assets/css/slick-theme.css" />
+    <link rel="stylesheet" href="./assets/css/slick.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="light" id="theme">
+    <div class="container-fluid">
+      <div class="">
+        <header class="dashboard">
+          <div class="row text-center bg-pink clr-white">
+            <p class="py-2 f-15 fw-400 mb-0">
+              Lorem ipsum dolor sit amet, consetetur sadipscing
+            </p>
+          </div>
+          <nav>
+            <div
+              class="row justify-content-between align-items-center bb-gray py-lg-1 bg-white"
+            >
+              <div
+                class="col-4 order-1 order-md-1 col-md-2 d-flex justify-content-center"
+              >
+                <div class="logo px-xl-0 ps-xl-5 p-2">
+                  <a href="./userHome.html">
+                    <img
+                      data-src="./assets/img/logo-udated.png"
+                      alt="logo"
+                      class="lozad"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div
+                class="f-xs order-4 order-md-2 col-12 col-md-4 col-xxl-2 col-lg-3"
+              >
+                <div class="tabs">
+                  <ul
+                    class="nav nav-pills position-relative d-flex justify-content-md-between justify-content-around pt-sm-0 pt-1"
+                  >
+                    <!-- accordian -->
+                    <!-- <li class="nav-item d-md-none" role="presentation">
+                      <a href="javascript:void(0);" class="nav-link">
+                        <i class="fa fa-bars f-20" aria-hidden="true"></i>
+                      </a>
+                      <div class="dropdown-cont"></div>
+                    </li> -->
+                    <li class="nav-item" role="presentation">
+                      <a
+                        href="javascript:void(0);"
+                        class="cust-dropdown nav-link"
+                        data-collapse-id="1"
+                      >
+                        <i class="fa fa-heart-o f-20" aria-hidden="true"></i>
+                      </a>
+                      <div class="dropdown-cont"></div>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        href="javascript:void(0);"
+                        class="cust-dropdown nav-link"
+                        data-collapse-id="2"
+                      >
+                        <i class="fa fa-bell-o f-20" aria-hidden="true"></i>
+                      </a>
+                      <div class="dropdown-cont">
+                        <div class="notif-panel bg-white mt-md-3">
+                          <div
+                            class="d-flex justify-content-start align-items-center f-15 fw-600 ms-4"
+                          >
+                            <button
+                              type="button"
+                              class="btn green clr-white me-2"
+                            >
+                              All
+                            </button>
+                            <button type="button" class="btn green clr-white">
+                              Unread
+                            </button>
+                          </div>
+                          <div class="notifications mt-4">
+                            <div
+                              class="d-flex justify-content-between align-items-center fw-600 px-4 bg-white"
+                            >
+                              <h5 class="cursor-p f-15">New</h5>
+                              <h5 class="cursor-p f-15">See All</h5>
+                            </div>
+                            <div
+                              class="d-flex justify-content-start align-items-center bb-gray bg-input p-1 px-4"
+                            >
+                              <div class="notif-img">
+                                <img
+                                  data-src="./assets/img/notifications/1.png"
+                                  alt="1"
+                                  class="lozad"
+                                />
+                              </div>
+                              <div class="ms-xl-4 ms-3 pt-3 pb-1">
+                                <h5 class="f-15 mb-1">Dan White</h5>
+                                <h5 class="f-15 user-input-clr mb-1">
+                                  shared your post
+                                </h5>
+                                <h5 class="f-15 user-input-clr mb-0">
+                                  32 min ago
+                                </h5>
+                              </div>
+                            </div>
+                            <div
+                              class="d-flex justify-content-start align-items-center bb-gray bg-input p-1 px-4"
+                            >
+                              <div class="notif-img">
+                                <img
+                                  data-src="./assets/img/notifications/2.png"
+                                  alt="2"
+                                  class="lozad"
+                                />
+                              </div>
+                              <div class="ms-xl-4 ms-3 pt-3 pb-1">
+                                <h5 class="f-15 mb-1">Dan White</h5>
+                                <h5 class="f-15 user-input-clr mb-1">
+                                  checked to a restaurant near you
+                                </h5>
+                                <h5 class="f-15 user-input-clr mb-0">
+                                  32 min ago
+                                </h5>
+                              </div>
+                            </div>
+                            <div
+                              class="d-flex justify-content-start align-items-center bb-gray bg-input p-1 px-4"
+                            >
+                              <div class="notif-img">
+                                <img
+                                  data-src="./assets/img/notifications/3.png"
+                                  alt="3"
+                                  class="lozad"
+                                />
+                              </div>
+                              <div class="ms-xl-4 ms-3 pt-3 pb-1">
+                                <h5 class="f-15 mb-1">Dan White</h5>
+                                <h5 class="f-15 user-input-clr mb-1">
+                                  commented on your post
+                                </h5>
+                                <h5 class="f-15 user-input-clr mb-0">
+                                  32 min ago
+                                </h5>
+                              </div>
+                            </div>
+                            <div
+                              class="d-flex justify-content-start align-items-center bb-gray p-1 px-4 bg-white"
+                            >
+                              <div class="notif-img">
+                                <img
+                                  data-src="./assets/img/notifications/4.png"
+                                  alt="4"
+                                  class="lozad"
+                                />
+                              </div>
+                              <div class="ms-xl-4 ms-3 pt-3 pb-1">
+                                <h5 class="f-15 mb-1">Dan White</h5>
+                                <h5 class="f-15 user-input-clr mb-1">
+                                  shared your post
+                                </h5>
+                                <h5 class="f-15 user-input-clr mb-0">
+                                  32 min ago
+                                </h5>
+                              </div>
+                            </div>
+                            <div
+                              class="d-flex justify-content-start align-items-center bb-gray p-1 px-4 bg-white"
+                            >
+                              <div class="notif-img">
+                                <img
+                                  data-src="./assets/img/notifications/5.png"
+                                  alt="5"
+                                  class="lozad"
+                                />
+                              </div>
+                              <div class="ms-xl-4 ms-3 pt-3 pb-1">
+                                <h5 class="f-15 mb-1">Dan White</h5>
+                                <h5 class="f-15 user-input-clr mb-1">
+                                  liked your post
+                                </h5>
+                                <h5 class="f-15 user-input-clr mb-0">
+                                  32 min ago
+                                </h5>
+                              </div>
+                            </div>
+                            <div
+                              class="d-flex justify-content-start align-items-center bb-gray p-1 px-4 bg-white"
+                            >
+                              <div class="notif-img">
+                                <img
+                                  data-src="./assets/img/notifications/3.png"
+                                  alt="6"
+                                  class="lozad"
+                                />
+                              </div>
+                              <div class="ms-xl-4 ms-3 pt-3 pb-1">
+                                <h5 class="f-15 mb-1">Dan White</h5>
+                                <h5 class="f-15 user-input-clr mb-1">
+                                  commented on your post
+                                </h5>
+                                <h5 class="f-15 user-input-clr mb-0">
+                                  32 min ago
+                                </h5>
+                              </div>
+                            </div>
+                            <div
+                              class="d-flex justify-content-start align-items-center bb-gray bg-input p-1 px-4"
+                            >
+                              <div class="notif-img">
+                                <img
+                                  data-src="./assets/img/notifications/4.png"
+                                  alt="7"
+                                  class="lozad"
+                                />
+                              </div>
+                              <div class="ms-xl-4 ms-3 pt-3 pb-1">
+                                <h5 class="f-15 mb-1">Dan White</h5>
+                                <h5 class="f-15 user-input-clr mb-1">
+                                  shared your post
+                                </h5>
+                                <h5 class="f-15 user-input-clr mb-0">
+                                  32 min ago
+                                </h5>
+                              </div>
+                            </div>
+                            <div
+                              class="d-flex justify-content-start align-items-center bb-gray p-1 px-4 bg-white"
+                            >
+                              <div class="notif-img">
+                                <img
+                                  data-src="./assets/img/notifications/5.png"
+                                  alt="8"
+                                  class="lozad"
+                                />
+                              </div>
+                              <div class="ms-xl-4 ms-3 pt-3 pb-1">
+                                <h5 class="f-15 mb-1">Dan White</h5>
+                                <h5 class="f-15 user-input-clr mb-1">
+                                  liked your post
+                                </h5>
+                                <h5 class="f-15 user-input-clr mb-0">
+                                  32 min ago
+                                </h5>
+                              </div>
+                            </div>
+                            <div
+                              class="d-flex justify-content-start align-items-center bb-gray p-1 px-4 mb-2 bg-white"
+                            >
+                              <div class="notif-img">
+                                <img
+                                  data-src="./assets/img/notifications/3.png"
+                                  alt="9"
+                                  class="lozad"
+                                />
+                              </div>
+                              <div class="ms-xl-4 ms-3 pt-3 pb-1">
+                                <h5 class="f-15 mb-1">Dan White</h5>
+                                <h5 class="f-15 user-input-clr mb-1">
+                                  commented your post
+                                </h5>
+                                <h5 class="f-15 user-input-clr mb-0">
+                                  32 min ago
+                                </h5>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        href="javascript:void(0);"
+                        class="cust-dropdown nav-link"
+                        data-collapse-id="3"
+                      >
+                        <i class="fa fa-envelope-o f-20" aria-hidden="true"></i>
+                      </a>
+                      <div class="dropdown-cont"></div>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        href="javascript:void(0);"
+                        class="cust-dropdown nav-link"
+                        data-collapse-id="4"
+                        ><i class="fa fa-comment-o f-20" aria-hidden="true"></i
+                      ></a>
+                      <div class="dropdown-cont"></div>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a
+                        href="javascript:void(0);"
+                        class="cust-dropdown nav-link"
+                        data-collapse-id="5"
+                      >
+                        <i class="fa fa-th-large f-20" aria-hidden="true"></i
+                      ></a>
+                      <div class="dropdown-cont">
+                        <div class="bg-input mt-md-3 h-100">
+                          <div
+                            class="d-flex justify-content-between align-items-center p-3 bb-gray"
+                          >
+                            <h5 class="f-15 fw-600 mb-0">Theme Mode</h5>
+                            <!-- Controller Row -->
+                            <div class="controller-row">
+                              <label class="switch">
+                                <input id="theme-switcher" type="checkbox" />
+                                <span
+                                  class="slider round position-absolute cursor-p"
+                                >
+                                  <i
+                                    class="fa fa-circle ms-1 input-clr"
+                                    aria-hidden="true"
+                                    id="handler"
+                                  ></i>
+                                </span>
+                              </label>
+                            </div>
+                            <!-- End of controller row -->
+                          </div>
+                          <div
+                            class="d-flex justify-content-start align-items-center p-3 bb-gray cursor-p"
+                          >
+                            <h5 class="f-15 fw-600 mb-0">
+                              Add/edit Your Interest and Categories
+                            </h5>
+                          </div>
+                          <div
+                            class="accordion settings-sec"
+                            id="accordionExample"
+                          >
+                            <div
+                              class="accordion-item border-0 p-3 py-lg-3 py-2 pe-2"
+                            >
+                              <h2
+                                class="accordion-header p-0"
+                                id="headingOneSettings"
+                              >
+                                <button
+                                  class="accordion-button collapsed bg-input"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#collapseOneSettings"
+                                  aria-expanded="false"
+                                  aria-controls="collapseOneSettings"
+                                >
+                                  <div>
+                                    <h5 class="f-15 fw-600 mb-0">
+                                      Setting and Privacy
+                                    </h5>
+                                  </div>
+                                </button>
+                              </h2>
+                              <div
+                                id="collapseOneSettings"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="headingOneSettings"
+                                data-bs-parent="#accordionExample"
+                              >
+                                <div class="accordion-body">
+                                  <p class="mb-0 f-18">Lorem ipsum dolor sit</p>
+                                </div>
+                              </div>
+                            </div>
+                            <div
+                              class="accordion-item border-0 p-3 py-lg-3 py-2 pe-2"
+                            >
+                              <h2
+                                class="accordion-header p-0"
+                                id="headingTwoSettings"
+                              >
+                                <button
+                                  class="accordion-button collapsed bg-input"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#collapseTwoSettings"
+                                  aria-expanded="false"
+                                  aria-controls="collapseTwoSettings"
+                                >
+                                  <div>
+                                    <h5 class="f-15 fw-600 mb-0">
+                                      Notification Setting
+                                    </h5>
+                                    <p class="f-12 user-input-clr mb-0">
+                                      Where Would You Like to Receive
+                                      Notification
+                                    </p>
+                                  </div>
+                                </button>
+                              </h2>
+                              <div
+                                id="collapseTwoSettings"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="headingTwoSettings"
+                                data-bs-parent="#accordionExample"
+                              >
+                                <div class="accordion-body p-0">
+                                  <div
+                                    class="d-flex justify-content-between align-items-center mt-3"
+                                  >
+                                    <h5 class="f-15 fw-600 mb-0">Groups</h5>
+                                    <!-- Controller Row -->
+                                    <div class="controller-row">
+                                      <label class="switch">
+                                        <input
+                                          id="theme-switcher"
+                                          type="checkbox"
+                                        />
+                                        <span
+                                          class="slider round position-absolute cursor-p"
+                                        >
+                                          <i
+                                            class="fa fa-circle ms-1 input-clr"
+                                            aria-hidden="true"
+                                            id="handler"
+                                          ></i>
+                                        </span>
+                                      </label>
+                                    </div>
+                                    <!-- End of controller row -->
+                                  </div>
+                                  <div
+                                    class="bg-input d-flex justify-content-between align-items-center mt-3"
+                                  >
+                                    <h5 class="f-15 fw-600 mb-0">Profile</h5>
+                                    <!-- Controller Row -->
+                                    <div class="controller-row">
+                                      <label class="switch">
+                                        <input
+                                          id="theme-switcher"
+                                          type="checkbox"
+                                        />
+                                        <span
+                                          class="slider round position-absolute cursor-p"
+                                        >
+                                          <i
+                                            class="fa fa-circle ms-1 input-clr"
+                                            aria-hidden="true"
+                                            id="handler"
+                                          ></i>
+                                        </span>
+                                      </label>
+                                    </div>
+                                    <!-- End of controller row -->
+                                  </div>
+                                  <div
+                                    class="bg-input d-flex justify-content-between align-items-center mt-3"
+                                  >
+                                    <h5 class="f-15 fw-600 mb-0">Menu</h5>
+                                    <!-- Controller Row -->
+                                    <div class="controller-row">
+                                      <label class="switch">
+                                        <input
+                                          id="theme-switcher"
+                                          type="checkbox"
+                                        />
+                                        <span
+                                          class="slider round position-absolute cursor-p"
+                                        >
+                                          <i
+                                            class="fa fa-circle ms-1 input-clr"
+                                            aria-hidden="true"
+                                            id="handler"
+                                          ></i>
+                                        </span>
+                                      </label>
+                                    </div>
+                                    <!-- End of controller row -->
+                                  </div>
+                                  <div
+                                    class="bg-input d-flex justify-content-between align-items-center mt-3"
+                                  >
+                                    <h5 class="f-15 fw-600 mb-0">Videos</h5>
+                                    <!-- Controller Row -->
+                                    <div class="controller-row">
+                                      <label class="switch">
+                                        <input
+                                          id="theme-switcher"
+                                          type="checkbox"
+                                        />
+                                        <span
+                                          class="slider round position-absolute cursor-p"
+                                        >
+                                          <i
+                                            class="fa fa-circle ms-1 input-clr"
+                                            aria-hidden="true"
+                                            id="handler"
+                                          ></i>
+                                        </span>
+                                      </label>
+                                    </div>
+                                    <!-- End of controller row -->
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div
+                            class="bg-input d-flex justify-content-start align-items-center p-3 bb-gray cursor-p"
+                          >
+                            <h5 class="f-15 fw-600 mb-0">Privacy & Policy</h5>
+                          </div>
+                          <div class="settings-sec">
+                            <div
+                              class="accordion-item border-0 p-3 pe-2 py-lg-3 py-2"
+                            >
+                              <h2
+                                class="accordion-header p-0"
+                                id="headingThirdSettings"
+                              >
+                                <button
+                                  class="accordion-button collapsed bg-input"
+                                  type="button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target="#collapseThirdSettings"
+                                  aria-expanded="false"
+                                  aria-controls="collapseThirdSettings"
+                                >
+                                  <div>
+                                    <h5 class="f-15 fw-600 mb-0">
+                                      User's Administration
+                                    </h5>
+                                  </div>
+                                </button>
+                              </h2>
+                              <div
+                                id="collapseThirdSettings"
+                                class="accordion-collapse collapse"
+                                aria-labelledby="headingThirdSettings"
+                                data-bs-parent="#accordionExample"
+                              >
+                                <div class="accordion-body p-0">
+                                  <ul class="p-0">
+                                    <a href="./followersList.html" class="pink">
+                                      <li class="f-15 fw-600 mb-1">
+                                        Followers List
+                                      </li>
+                                    </a>
+                                    <a
+                                      href="./followersBlockList.html"
+                                      class="pink"
+                                    >
+                                      <li class="f-15 fw-600 mb-1">
+                                        Followers Blocked List
+                                      </li>
+                                    </a>
+                                    <a href="./stats.html" class="pink">
+                                      <li class="f-15 fw-600 mb-1">
+                                        See Stats
+                                      </li>
+                                    </a>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <div>
+                              <button class="btn gray bg-input mt-5">
+                                <span
+                                  ><i
+                                    class="fa fa-sign-out"
+                                    aria-hidden="true"
+                                  ></i
+                                ></span>
+                                <span class="f-14">Logout</span>
+                              </button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <!-- suggestion section -->
+                    <li class="nav-item d-md-none" role="presentation">
+                      <a
+                        href="javascript:void(0);"
+                        class="cust-dropdown nav-link"
+                        data-collapse-id="6"
+                      >
+                        <i class="fa fa-caret-down f-20" aria-hidden="true"></i>
+                      </a>
+                      <div class="dropdown-cont">
+                        <div class="p-xl-4 py-3 mx-2 ps-3">
+                          <div class="d-flex">
+                            <span class="me-3"
+                              ><i
+                                class="fa fa-info clr-pink f-20"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                            <span
+                              ><a class="res-p" href="javascript:void(0)">
+                                <p class="f-14 mb-0">
+                                  Relaxing Jazz, A perfect place to rejoice
+                                  variety of cuisines with your love ones, to
+                                  soak in the relaxing Decor & desire to revisit
+                                  for once is NEVER enough!
+                                </p>
+                              </a></span
+                            >
+                          </div>
+                          <div class="d-flex mt-xl-3 mt-2">
+                            <span class="me-3"
+                              ><i
+                                class="fa fa-info clr-pink f-20"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                            <span
+                              ><a class="res-p" href="javascript:void(0)">
+                                <p class="f-14 mb-0">
+                                  For any complain or queries kindly call
+                                  111-666-111 or send us a mail at
+                                  Marketing@Relaxing Jazz.com
+                                </p>
+                              </a></span
+                            >
+                          </div>
+                          <div class="d-flex mt-xl-3 mt-2 align-items-center">
+                            <span class="me-3"
+                              ><i
+                                class="fa fa-thumbs-up clr-pink f-20"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                            <span
+                              ><a class="res-p" href="javascript:void(0)">
+                                <p class="f-14 mb-0">
+                                  249,271 people like this
+                                </p>
+                              </a></span
+                            >
+                          </div>
+                          <div class="d-flex mt-xl-3 mt-2 align-items-center">
+                            <span class="me-2"
+                              ><i
+                                class="icon-Icon-awesome-location-arrow me-xl-2 me-1 f-20"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                            <span
+                              ><a class="res-p" href="javascript:void(0)">
+                                <p class="f-14 mb-0">
+                                  10,819 people checked in here
+                                </p></a
+                              ></span
+                            >
+                          </div>
+                          <div class="d-flex mt-xl-3 mt-2 align-items-center">
+                            <span class="me-3"
+                              ><i
+                                class="fa fa-globe clr-pink f-20"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                            <span
+                              ><a
+                                class="f-14 mb-0 res-p"
+                                href="javascript:void(0)"
+                                >http://www.RelaxingJazz.com/</a
+                              ></span
+                            >
+                          </div>
+                          <div class="d-flex mt-xl-3 mt-2 align-items-center">
+                            <span class="me-3"
+                              ><i
+                                class="fa fa-pencil-square-o clr-pink f-20"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                            <span
+                              ><a
+                                class="f-14 mb-0 res-p"
+                                href="javascript:void(0)"
+                                >Send message</a
+                              ></span
+                            >
+                          </div>
+                          <div class="d-flex mt-xl-3 mt-2 align-items-center">
+                            <span class="me-3"
+                              ><i
+                                class="fa fa-envelope clr-pink f-20"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                            <span
+                              ><a
+                                class="f-14 mb-0 res-p"
+                                href="javascript:void(0)"
+                                >marketing@RelaxingJazz.com</a
+                              ></span
+                            >
+                          </div>
+                          <div class="d-flex mt-xl-3 mt-2 align-items-center">
+                            <span class="me-3"
+                              ><i
+                                class="fa fa-map-marker clr-pink f-20"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                            <span
+                              ><a
+                                class="f-14 mb-0 res-p"
+                                href="javascript:void(0)"
+                                >USA Restaurant</a
+                              ></span
+                            >
+                          </div>
+                          <div class="d-flex mt-xl-3 mt-2 align-items-center">
+                            <span class="me-3"
+                              ><i
+                                class="fa fa-cutlery clr-pink f-20"
+                                aria-hidden="true"
+                              ></i
+                            ></span>
+                            <span
+                              ><a class="f-14 mb-0 res-p" href="./res-menu.html"
+                                >See menu</a
+                              ></span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div
+                class="col-6 order-2 order-md-3 col-xl-3 offset-xl-3 col-lg-3 col-md-3"
+              >
+                <div class="search me-lg-4 position-relative py-md-2">
+                  <form id="search-form">
+                    <input
+                      type="text"
+                      placeholder="Search"
+                      class="search-input bg-input border-0 user-input-clr ps-5 bs-none form-control"
+                      name="search"
+                    />
+                  </form>
+                  <button
+                    class="fa fa-search user-input-clr position-absolute top-0 f-20"
+                    type="button"
+                  ></button>
+                </div>
+              </div>
+              <div class="col-2 order-3 order-md-4 col-md-1 text-start">
+                <div class="login-user-img">
+                  <a href="./profile-5.html">
+                    <img src="./assets/img/user-home/user.png" alt="user" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </header>
+      </div>
+      <section>
+        <div
+          class="w-100 profile-banner-img position-relative"
+          style="
+            background: url(./assets/img/Profile/profile-banner.png) no-repeat
+              center center/cover;
+          "
+        >
+          <div class="me-3 mt-3 position-absolute cover-img">
+            <label for="cover"
+              ><i class="fa fa-camera f-30 me-3 mt-3" aria-hidden="true"> </i
+            ></label>
+            <input id="cover" type="file" />
+          </div>
+          <div class="container-xxl h-100">
+            <div
+              class="row d-flex justify-content-center align-items-end h-100 pb-4 clr-white mob-profile"
+            >
+              <div class="col-md-6 u-prof-details">
+                <div
+                  class="row justify-content-md-start justify-content-center align-items-md-center align-items-end"
+                >
+                  <div class="col-md-3 col-4">
+                    <div
+                      class="profile-img"
+                      style="
+                        background: url(./assets/img/Profile/profile-img.png)
+                          center center/cover;
+                      "
+                    >
+                      <label
+                        class="-label d-flex justify-content-center align-items-center"
+                        for="file"
+                      >
+                        <span
+                          ><i
+                            class="fa fa-camera f-18 me-2"
+                            aria-hidden="true"
+                          ></i
+                        ></span>
+                        <span class="change-img">Change Image</span>
+                      </label>
+                      <input id="file" type="file" />
+                    </div>
+                  </div>
+                  <div class="col-9 p-lg-0 text-md-start text-center">
+                    <div
+                      class="d-flex justify-content-xl-start justify-content-center align-items-end"
+                    >
+                      <div class="profile-user-res">
+                        <div class="post-heading">
+                          <h1 class="f-35 fw-700 mb-2">Relaxing Jazz</h1>
+                          <h6 class="f-16">United State of America</h6>
+                        </div>
+                        <div
+                          class="post-heading d-flex justify-content-md-start justify-content-centeralign-items-center f-13"
+                        >
+                          <span class="me-lg-4 me-md-2"
+                            ><i
+                              class="fa fa-trophy clr-white"
+                              aria-hidden="true"
+                            ></i
+                          ></span>
+                          <span class="w-100">
+                            <p class="f-16 mb-0">200 Peoples Recommended</p>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-5 col-7 mt-md-0 mt-2">
+                <div class="profile-user-details">
+                  <div
+                    class="d-flex justify-content-between align-items-center post-heading f-13"
+                  >
+                    <span>Posts: 4</span>
+                    <span>Comments 0</span>
+                    <span>Views: 9506</span>
+                    <span
+                      ><a href="./editProfile-3.html"
+                        ><i
+                          class="fa fa-pencil-square-o"
+                          aria-hidden="true"
+                        ></i></a
+                    ></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container-xxl user-prof-res">
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-6">
+          <div class="card">
+            <input
+              type="text"
+              class="card-input f-13 bg-input form-control border-0 mb-lg-3 mb-2 user-input-clr bs-none"
+              placeholder="Write Something about Your Experience"
+            />
+            <div class="py-2 d-flex justify-content-around align-items-center">
+              <button
+                class="card-input bg-input user-input-clr d-flex justify-content-center align-items-center border-0"
+                data-bs-toggle="modal"
+                data-bs-target="#exampleModal"
+              >
+                <i
+                  class="fa fa-picture-o clr-green me-xl-2 me-1 cursor-p f-15"
+                  aria-hidden="true"
+                ></i>
+                <span class="f-13">Image</span>
+              </button>
+
+              <button
+                class="card-input bg-input user-input-clr d-flex justify-content-center align-items-center border-0"
+              >
+                <i
+                  class="icon-Icon-awesome-poll me-xl-2 me-1 f-15"
+                  aria-hidden="true"
+                ></i>
+                <span class="f-13">Pool</span>
+              </button>
+
+              <button
+                class="card-input bg-input user-input-clr d-flex justify-content-center align-items-center border-0"
+              >
+                <i
+                  class="fa fa-pencil-square-o clr-brown fw-600 me-xl-2 me-1 f-15"
+                  aria-hidden="true"
+                ></i>
+                <span class="f-13">Review</span>
+              </button>
+
+              <button
+                class="card-input bg-input user-input-clr d-flex justify-content-center align-items-center border-0"
+              >
+                <i
+                  class="fa fa-calendar-o clr-green me-xl-2 me-1 f-15"
+                  aria-hidden="true"
+                ></i>
+                <span class="f-13">Event</span>
+              </button>
+              <button
+                class="card-input bg-input user-input-clr d-flex justify-content-center align-items-center border-0"
+              >
+                <i
+                  class="icon-Icon-awesome-location-arrow me-xl-2 me-1 f-15"
+                  aria-hidden="true"
+                ></i>
+                <span class="f-13">Check In</span>
+              </button>
+            </div>
+          </div>
+          <div class="card mt-4">
+            <div class="row justify-content-between align-items-center">
+              <div class="col-3">
+                <div
+                  class="post-header d-flex justify-content-between align-items-center"
+                >
+                  <div class="post-header-img">
+                    <img
+                      src="./assets/img/Profile/restaurant/res-post.png"
+                      alt="restaurant-post-user"
+                    />
+                  </div>
+                  <div class="login-user-info w-100 ms-2">
+                    <div class="name">
+                      <a href="javascript:void(0)"
+                        ><h6 class="f-15 fw-600 mb-0">Relaxing Jazz</h6></a
+                      >
+                      <h6 class="f-15 user-input-clr mb-0">
+                        Jan 26 2022, 1:30 pm
+                      </h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 col-3">
+                <div
+                  class="d-flex justify-content-md-between justify-content-around align-items-center menu profile-card-menu"
+                >
+                  <span>
+                    <i
+                      class="fa fa-tag f-20 para-clr cursor-p"
+                      aria-hidden="true"
+                    ></i>
+                  </span>
+                  <span>
+                    <i
+                      class="fa fa-thumb-tack f-20 para-clr cursor-p"
+                      aria-hidden="true"
+                    ></i>
+                  </span>
+                  <span>
+                    <div class="btn-group dropstart post-config">
+                      <button
+                        type="button"
+                        class="btn green dropdown-toggle comment-dropdown p-0"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        <i
+                          class="fa fa-ellipsis-v f-20 para-clr cursor-p"
+                          aria-hidden="true"
+                        ></i>
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <div
+                              class="d-flex justify-content-start align-items-center"
+                            >
+                              <span
+                                ><i class="fa fa-ban" aria-hidden="true"></i
+                              ></span>
+                              <span class="f-13 user-input-clr ms-2"
+                                >Block user</span
+                              >
+                            </div>
+                          </a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="#">
+                            <div
+                              class="d-flex justify-content-start align-items-center"
+                            >
+                              <span
+                                ><i
+                                  class="fa fa-exclamation-circle"
+                                  aria-hidden="true"
+                                ></i
+                              ></span>
+                              <span class="f-13 user-input-clr ms-2"
+                                >Report</span
+                              >
+                            </div>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class="mt-lg-2 mt-1 text-start me-md-2">
+              <p class="f-15 para-clr mb-1">
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua.
+              </p>
+            </div>
+            <div class="post-img">
+              <a href="javascript:void(0)"
+                ><img
+                  src="./assets/img/Profile/profile-card-1.png"
+                  alt="profile-card-1"
+              /></a>
+            </div>
+            <div
+              class="d-flex justify-content-between align-items-center para-clr bb-gray py-2"
+            >
+              <p class="f-13 mb-0">Melina Clarke and 23 more liked this</p>
+              <div class="feedback f-13">
+                <span class="me-3">29 Comments</span>
+                <span>3 Shares</span>
+              </div>
+            </div>
+            <div
+              class="row row-cols-3 d-flex justify-content-center align-items-center user-input-clr px-3"
+            >
+              <div class="user-feedback text-center pt-lg-3 py-lg-0 py-1 px-3">
+                <a href="javascript:void(0)" class="user-feed">
+                  <i class="fa fa-thumbs-o-up f-20" aria-hidden="true"></i>
+                  <strong class="f-15 fw-600">Like</strong>
+                </a>
+              </div>
+              <div class="user-feedback text-center pt-lg-3 py-lg-0 py-1">
+                <a href="javascript:void(0)" class="user-feed">
+                  <i class="fa fa-comment-o f-20" aria-hidden="true"></i>
+                  <strong class="f-15 fw-600">Comment</strong>
+                </a>
+              </div>
+              <div class="user-feedback text-center pt-lg-3 py-lg-0 py-1 pt-1">
+                <div class="btn-group dropend">
+                  <button
+                    type="button"
+                    class="btn btn-secondary dropdown-toggle share comment-dropdown p-0 d-flex align-items-center share-button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    <i
+                      class="fa fa-share user-input-clr me-1 f-20"
+                      aria-hidden="true"
+                    ></i>
+                    <span class="f-15 fw-600"
+                      ><a
+                        href="javascript:void(0)"
+                        class="user-input-clr share-btn"
+                        >Share</a
+                      >
+                    </span>
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <div
+                          class="d-flex justify-content-start align-items-center"
+                        >
+                          <span
+                            ><i class="fa fa-paperclip" aria-hidden="true"></i
+                          ></span>
+                          <span class="f-13 user-input-clr ms-2"
+                            >Copy Link</span
+                          >
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                        <div
+                          class="d-flex justify-content-start align-items-center"
+                        >
+                          <span
+                            ><i
+                              class="fa fa-share-square"
+                              aria-hidden="true"
+                            ></i
+                          ></span>
+                          <span class="f-13 user-input-clr ms-2">Repost</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-5">
+          <div class="card p-xl-4 p-lg-3 d-md-block d-none">
+            <div class="d-flex">
+              <span class="me-3"
+                ><i class="fa fa-info clr-pink f-20" aria-hidden="true"></i
+              ></span>
+              <span
+                ><a class="res-p" href="javascript:void(0)">
+                  <p class="f-14 mb-0">
+                    Relaxing Jazz, A perfect place to rejoice variety of
+                    cuisines with your love ones, to soak in the relaxing Decor
+                    & desire to revisit for once is NEVER enough!
+                  </p>
+                </a></span
+              >
+            </div>
+            <div class="d-flex mt-xl-3 mt-2">
+              <span class="me-3"
+                ><i class="fa fa-info clr-pink f-20" aria-hidden="true"></i
+              ></span>
+              <span
+                ><a class="res-p" href="javascript:void(0)">
+                  <p class="f-14 mb-0">
+                    For any complain or queries kindly call 111-666-111 or send
+                    us a mail at Marketing@Relaxing Jazz.com
+                  </p>
+                </a></span
+              >
+            </div>
+            <div class="d-flex mt-xl-3 mt-2 align-items-center">
+              <span class="me-3"
+                ><i class="fa fa-thumbs-up clr-pink f-20" aria-hidden="true"></i
+              ></span>
+              <span
+                ><a class="res-p" href="javascript:void(0)">
+                  <p class="f-14 mb-0">249,271 people like this</p>
+                </a></span
+              >
+            </div>
+            <div class="d-flex mt-xl-3 mt-2 align-items-center">
+              <span class="me-2"
+                ><i
+                  class="icon-Icon-awesome-location-arrow me-xl-2 me-1 f-20"
+                  aria-hidden="true"
+                ></i
+              ></span>
+              <span
+                ><a class="res-p" href="javascript:void(0)">
+                  <p class="f-14 mb-0">10,819 people checked in here</p></a
+                ></span
+              >
+            </div>
+            <div class="d-flex mt-xl-3 mt-2 align-items-center">
+              <span class="me-3"
+                ><i class="fa fa-globe clr-pink f-20" aria-hidden="true"></i
+              ></span>
+              <span
+                ><a class="f-14 mb-0 res-p" href="javascript:void(0)"
+                  >http://www.RelaxingJazz.com/</a
+                ></span
+              >
+            </div>
+            <div class="d-flex mt-xl-3 mt-2 align-items-center">
+              <span class="me-3"
+                ><i
+                  class="fa fa-pencil-square-o clr-pink f-20"
+                  aria-hidden="true"
+                ></i
+              ></span>
+              <span
+                ><a class="f-14 mb-0 res-p" href="javascript:void(0)"
+                  >Send message</a
+                ></span
+              >
+            </div>
+            <div class="d-flex mt-xl-3 mt-2 align-items-center">
+              <span class="me-3"
+                ><i class="fa fa-envelope clr-pink f-20" aria-hidden="true"></i
+              ></span>
+              <span
+                ><a class="f-14 mb-0 res-p" href="javascript:void(0)"
+                  >marketing@RelaxingJazz.com</a
+                ></span
+              >
+            </div>
+            <div class="d-flex mt-xl-3 mt-2 align-items-center">
+              <span class="me-3"
+                ><i
+                  class="fa fa-map-marker clr-pink f-20"
+                  aria-hidden="true"
+                ></i
+              ></span>
+              <span
+                ><a class="f-14 mb-0 res-p" href="javascript:void(0)"
+                  >USA Restaurant</a
+                ></span
+              >
+            </div>
+            <div class="d-flex mt-xl-3 mt-2 align-items-center">
+              <span class="me-3"
+                ><i class="fa fa-cutlery clr-pink f-20" aria-hidden="true"></i
+              ></span>
+              <span
+                ><a class="f-14 mb-0 res-p" href="./res-menu.html"
+                  >See menu</a
+                ></span
+              >
+            </div>
+          </div>
+          <div class="card mt-xl-4 mt-3 ps-md-3">
+            <h2 class="f-20 fw-700 py-2">Healthy Meals</h2>
+            <div
+              class="row healthy-meals justify-content-md-start justify-content-center"
+            >
+              <div class="meals p-0 mx-2">
+                <a
+                  href="./assets/img/Profile/restaurant/meals/1.png"
+                  data-fancybox="healthy-meals"
+                  ><img
+                    data-src="./assets/img/Profile/restaurant/meals/1.png"
+                    alt="meal-1"
+                    class="lozad w-100"
+                /></a>
+              </div>
+              <div class="meals p-0 mx-2">
+                <a
+                  href="./assets/img/Profile/restaurant/meals/2.png"
+                  data-fancybox="healthy-meals"
+                  ><img
+                    data-src="./assets/img/Profile/restaurant/meals/2.png"
+                    alt="meal-2"
+                    class="lozad w-100"
+                /></a>
+              </div>
+              <div class="meals p-0 mx-2">
+                <a
+                  href="./assets/img/Profile/restaurant/meals/3.png"
+                  data-fancybox="healthy-meals"
+                  ><img
+                    data-src="./assets/img/Profile/restaurant/meals/3.png"
+                    alt="meal-3"
+                    class="lozad w-100"
+                /></a>
+              </div>
+              <div class="meals p-0 mx-2">
+                <a
+                  href="./assets/img/Profile/restaurant/meals/4.png"
+                  data-fancybox="healthy-meals"
+                  ><img
+                    data-src="./assets/img/Profile/restaurant/meals/4.png"
+                    alt="meal-4"
+                    class="lozad w-100"
+                /></a>
+              </div>
+              <div class="meals p-0 mx-2">
+                <a
+                  href="./assets/img/Profile/restaurant/meals/5.png"
+                  data-fancybox="healthy-meals"
+                  ><img
+                    data-src="./assets/img/Profile/restaurant/meals/5.png"
+                    alt="meal-5"
+                    class="lozad w-100"
+                /></a>
+              </div>
+              <div class="meals p-0 mx-2">
+                <a
+                  href="./assets/img/Profile/restaurant/meals/6.png"
+                  data-fancybox="healthy-meals"
+                  ><img
+                    data-src="./assets/img/Profile/restaurant/meals/6.png"
+                    alt="meal-6"
+                    class="lozad w-100"
+                /></a>
+              </div>
+              <div class="meals p-0 mx-2">
+                <a
+                  href="./assets/img/Profile/restaurant/meals/7.png"
+                  data-fancybox="healthy-meals"
+                  ><img
+                    data-src="./assets/img/Profile/restaurant/meals/7.png"
+                    alt="meal-7"
+                    class="lozad w-100"
+                /></a>
+              </div>
+              <div class="meals p-0 mx-2">
+                <a
+                  href="./assets/img/Profile/restaurant/meals/8.png"
+                  data-fancybox="healthy-meals"
+                  ><img
+                    data-src="./assets/img/Profile/restaurant/meals/8.png"
+                    alt="meal-7"
+                    class="lozad w-100"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-10 col-xl-11 col-lg-10">
+              <div class="card post-heading my-4 profile-food py-4">
+                <h6 class="f-16 fw-700 mb-3 post-heading">Trending Menu</h6>
+                <div class="prof-food-container cursor-p">
+                  <div iv class="prof-food-img position-relative mx-1">
+                    <img
+                      data-src="./assets/img/Profile/upcoming-events/1.png"
+                      alt="dish-1"
+                      class="w-100 h-100 lozad"
+                    />
+                    <div
+                      class="menu-overlay w-100 h-100 position-absolute top-0 clr-white d-flex flex-column justify-content-between"
+                    >
+                      <div
+                        class="d-flex justify-content-end align-items-center pe-2 pt-2"
+                      >
+                        <span class="me-2"
+                          ><i class="fa fa-trophy" aria-hidden="true"></i
+                        ></span>
+                        <span>200</span>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center pb-3 mx-3"
+                      >
+                        <p class="f-15 fw-600 mb-0">Lorem Ipsem</p>
+                        <i
+                          class="fa fa-angle-right bg-pink p-1 px-2 rounded-3"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="prof-food-img mx-1 position-relative">
+                    <img
+                      data-src="./assets/img/Profile/upcoming-events/2.png"
+                      class="w-100 h-100 lozad"
+                      alt="dish-2"
+                    />
+                    <div
+                      class="menu-overlay w-100 h-100 position-absolute top-0 clr-white d-flex flex-column justify-content-between"
+                    >
+                      <div
+                        class="d-flex justify-content-end align-items-center pe-2 pt-2"
+                      >
+                        <span class="me-2"
+                          ><i class="fa fa-trophy" aria-hidden="true"></i
+                        ></span>
+                        <span>200</span>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center pb-3 mx-3"
+                      >
+                        <p class="f-15 fw-600 mb-0">Lorem Ipsem</p>
+                        <i
+                          class="fa fa-angle-right bg-pink p-1 px-2 rounded-3"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="prof-food-img mx-1 position-relative">
+                    <img
+                      data-src="./assets/img/Profile/upcoming-events/3.png"
+                      class="w-100 h-100 lozad"
+                      alt="dish-3"
+                    />
+                    <div
+                      class="menu-overlay w-100 h-100 position-absolute top-0 clr-white d-flex flex-column justify-content-between"
+                    >
+                      <div
+                        class="d-flex justify-content-end align-items-center pe-2 pt-2"
+                      >
+                        <span class="me-2"
+                          ><i class="fa fa-trophy" aria-hidden="true"></i
+                        ></span>
+                        <span>200</span>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center pb-3 mx-3"
+                      >
+                        <p class="f-15 fw-600 mb-0">Lorem Ipsem</p>
+                        <i
+                          class="fa fa-angle-right bg-pink p-1 px-2 rounded-3"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="prof-food-img mx-1 position-relative">
+                    <img
+                      data-src="./assets/img/Profile/upcoming-events/4.png"
+                      class="w-100 h-100 lozad"
+                      alt="dish-4"
+                    />
+                    <div
+                      class="menu-overlay w-100 h-100 position-absolute top-0 clr-white d-flex flex-column justify-content-between"
+                    >
+                      <div
+                        class="d-flex justify-content-end align-items-center pe-2 pt-2"
+                      >
+                        <span class="me-2"
+                          ><i class="fa fa-trophy" aria-hidden="true"></i
+                        ></span>
+                        <span>200</span>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center pb-3 mx-3"
+                      >
+                        <p class="f-15 fw-600 mb-0">Lorem Ipsem</p>
+                        <i
+                          class="fa fa-angle-right bg-pink p-1 px-2 rounded-3"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="prof-food-img mx-1 position-relative">
+                    <img
+                      data-src="./assets/img/Profile/upcoming-events/2.png"
+                      class="w-100 h-100 lozad"
+                      alt="dish-4"
+                    />
+                    <div
+                      class="menu-overlay w-100 h-100 position-absolute top-0 clr-white d-flex flex-column justify-content-between"
+                    >
+                      <div
+                        class="d-flex justify-content-end align-items-center pe-2 pt-2"
+                      >
+                        <span class="me-2"
+                          ><i class="fa fa-trophy" aria-hidden="true"></i
+                        ></span>
+                        <span>200</span>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center pb-3 mx-3"
+                      >
+                        <p class="f-15 fw-600 mb-0">Lorem Ipsem</p>
+                        <i
+                          class="fa fa-angle-right bg-pink p-1 px-2 rounded-3"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="prof-food-img mx-1 position-relative">
+                    <img
+                      data-src="./assets/img/Profile/upcoming-events/3.png"
+                      class="w-100 h-100 lozad"
+                      alt="dish-4"
+                    />
+                    <div
+                      class="menu-overlay w-100 h-100 position-absolute top-0 clr-white d-flex flex-column justify-content-between"
+                    >
+                      <div
+                        class="d-flex justify-content-end align-items-center pe-2 pt-2"
+                      >
+                        <span class="me-2"
+                          ><i class="fa fa-trophy" aria-hidden="true"></i
+                        ></span>
+                        <span>200</span>
+                      </div>
+                      <div
+                        class="d-flex justify-content-between align-items-center pb-3 mx-3"
+                      >
+                        <p class="f-15 fw-600 mb-0">Lorem Ipsem</p>
+                        <i
+                          class="fa fa-angle-right bg-pink p-1 px-2 rounded-3"
+                          aria-hidden="true"
+                        ></i>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="container-fluid p-0 mt-5 post-detail-footer">
+      <section class="footer overflow-hidden position-relative">
+        <div class="row">
+          <div
+            class="col-12 d-flex justify-content-center align-items-center footer-side"
+          >
+            <div
+              class="footer-container d-flex justify-content-center align-items-center flex-column"
+            >
+              <div class="logo">
+                <a href="javascript:void(0)"
+                  ><img
+                    data-src="./assets/img/logo-udated.png"
+                    alt="logo"
+                    class="lozad"
+                /></a>
+              </div>
+              <div class="icons footer-icons d-flex">
+                <div class="insta-icon mt-2 me-3">
+                  <a href="javascript:void(0)" class="green"
+                    ><i class="fa fa-instagram green" aria-hidden="true"></i
+                  ></a>
+                </div>
+                <div class="fb-icon mt-2 me-3">
+                  <a href="javascript:void(0)" class="green"
+                    ><i
+                      class="fa fa-facebook-official green"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+                <div class="twitter-icon mt-2">
+                  <a href="javascript:void(0)" class="green"
+                    ><i
+                      class="fa fa-twitter-square green"
+                      aria-hidden="true"
+                    ></i
+                  ></a>
+                </div>
+              </div>
+              <p
+                class="f-20 para-clr fw-normal my-md-4 mt-md-0 my-1 d-flex justify-content-center align-items-center"
+              >
+                &copy; Copyright 2022 Vittle | All rights Reserved
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- ----------************* JS -->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/jquery.min.js"></script>
+    <script src="./assets/js/plugin.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>

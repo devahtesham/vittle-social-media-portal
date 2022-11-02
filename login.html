@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="robots" content="noindex, nofollow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="./assets/fonts/css/font-awesome.min.css" />
+  <!-- vendor -->
+  <link rel="stylesheet" href="./assets/css/vendor.css" />
+  <!-- slick -->
+  <link rel="stylesheet" href="./assets/css/slick-theme.css" />
+  <link rel="stylesheet" href="./assets/css/slick.css" />
+  <!-- custom css -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
+
+
+
+</head>
+
+<body>
+  <section class="login-home login-sec position-relative">
+    <div class="home-sec-container position-relative">
+
+      <!-- header -->
+      <header>
+        <nav>
+          <div class="row pt-4 justify-content-between align-items-center">
+            <div class="col-sm-2 col-4">
+              <div class="d-md-flex justify-content-md-start align-items-md-center">
+                <div class="logo">
+                  <a href="javascript:void(0)"><img data-src="./assets/img/logo-udated.png" alt="logo" class="lozad" /></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 col-7 text-end header-btn me-3">
+              <button type="button" class="btn b-login "><a href="./login.html">Login</a></button>
+              <button type="button" class="btn b-sign"><a href="">Sign Up</a></button>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="row justify-content-between login-page ">
+        <div class="col-md-6 col-3">
+          <div class="row align-items-xxl-center align-items-start justify-content-center">
+            <div class="col-2 top-0">
+              <div class="span-bg-clr position-absolute top-0 ">
+                <div class="span-bg-clr-img h-100 d-md-block d-none" >
+                  <img data-src="./assets/img/bg-test.png" alt="" class="h-100 lozad">
+                </div>
+                <div class="plate">
+                  <img data-src="./assets/img/login-bg.png" class="lozad">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-12 d-flex align-items-center justify-content-center">
+          <div class="login-form-container d-flex align-items-center h-100 ">
+            <div class="login-form">
+              <h1 class="f-60 fw-lighter mb-xl-4"><span class="clr-yellow">Login</span> your <span
+                  class="clr-yellow">account</span></h1>
+              <div class="mb-md-3 login-inputs">
+                <label for="email" class="form-label login-clr">User name or email address <sup
+                    class="span-clr">*</sup></label>
+                <input type="email" class="form-control login" id="email" placeholder="Username">
+              </div>
+              <div class="mb-md-4 login-inputs">
+                <label for="password" class="form-label login-clr">Password <sup class="span-clr">*</sup></label>
+                <input type="password" class="form-control login" id="password" placeholder="Password">
+              </div>
+
+              <div class="resources d-flex justify-content-between align-items-center flex-wrap">
+                <div class="social-media me-3 mb-sm-2 mb-1">
+                  <div class="google">
+                    <a href="#" class="login-clr pink d-flex align-items-center f-16"><i
+                        class="fa fa-google f-20 fw-normal text-danger me-2" aria-hidden="true"></i>Login With
+                      Google</a>
+                  </div>
+                </div>
+                <div class="social-media me-3 mb-sm-2 mb-1">
+                  <div class="facebook">
+                    <a href="#" class="login-clr pink d-flex align-items-center f-16 "><i
+                        class="fa fa-facebook-official f-20 fw-normal text-primary me-2" aria-hidden="true"></i>Login
+                      With Facebook</a>
+                  </div>
+                </div>
+                <div class="social-media me-3 mb-sm-2 mb-1">
+                  <div class="twitter">
+                    <a href="#" class="login-clr pink d-flex align-items-center f-16"><i
+                        class="fa fa-twitter-square f-20 fw-normal text-primary me-2" aria-hidden="true"></i>Login With
+                      Twitter</a>
+                  </div>
+                </div>
+              </div>
+              <p class="f-16 para-clr login-clr">Dont have an account click here to <a href="#"
+                  class="clr-yellow fw-bolder pink" data-bs-toggle="modal" data-bs-target="#createAccount">Create an
+                  account</a>
+              </p>
+              <div class="login-btn-container d-flex justify-content-center align-items-center">
+                <button class="btn w-100 login-btn f-18 fw-normal green"><a href="./userHome.html">LOGIN</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+  <!-- popup -->
+  <!-- Create Account Modal -->
+  <div class="modal fade " id="createAccount" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header border-0 pb-0">
+          <h5 class="modal-title f-30 fw-700" id="exampleModalLabel">Sign Up</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <h4 class="f-14 f-14 ps-3 user-input-clr bb-gray mb-0 pb-2">It's quick and easy</h4>
+        <div class="modal-body">
+          <form class="user-signUp-form">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+              <input type="text" name="fname" id="fname" class="form-control bs-none me-3 bg-input"
+                placeholder="First Name">
+              <input type="text" name="lname" id="lname" class="form-control bs-none bg-input" placeholder="Last Name">
+            </div>
+            <div>
+              <input type="text" name="userEmail" id="userEmail" class="form-control w-100 bg-input bs-none mb-3"
+                placeholder="Email Address">
+              <input type="password" name="userPassword" id="userPassword"
+                class="form-control w-100 bg-input bs-none mb-3" placeholder="Password">
+            </div>
+            <div class="signUp-date mb-3">
+              <h6 class="f-13">Date of Birth<i class="fa fa-question-circle ms-1 user-input-clr" aria-hidden="true"></i>
+              </h6>
+             <div class="d-flex justify-content-start align-items-center">
+              <select name="date" id="date" class="bs-none pe-sm-5 pe-2 me-3">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+                <option value="24">24</option>
+                <option value="25">25</option>
+                <option value="26">26</option>
+                <option value="27">27</option>
+                <option value="28">28</option>
+                <option value="29">29</option>
+                <option value="30">30</option>
+                <option value="31">31</option>
+              </select>
+              <select name="month" id="month" class="bs-none pe-sm-5 pe-2 me-3">
+                <option Value="1">January
+                <option Value="2">Febuary
+                <option Value="3">March
+                <option Value="4">April
+                <option Value="5">May
+                <option Value="6">June
+                <option Value="7">July
+                <option Value="8">August
+                <option Value="9">September
+                <option Value="10">October
+                <option Value="11">November
+                <option Value="12">December
+              </select>
+              <select name="years" id="years" class="bs-none pe-sm-5 pe-2">
+                <option value="1947">2022</option>
+                <option value="1948">2021</option>
+                <option value="1949">2020</option>
+                <option value="1950">1999</option>
+                <option value="1951">1998</option>
+                <option value="1952">1997</option>
+                <option value="1953">1996</option>
+                <option value="1954">1995</option>
+                <option value="1955">1994</option>
+                <option value="1956">1993</option>
+                <option value="1957">1992</option>
+                <option value="1958">1991</option>
+                <option value="1959">1990</option>
+                <option value="1960">1989</option>
+                <option value="1961">1988</option>
+                <option value="1962">1987</option>
+                <option value="1963">1986</option>
+                <option value="1964">1985</option>
+                <option value="1965">1984</option>
+                <option value="1966">1983</option>
+                <option value="1967">1982</option>
+                <option value="1968">1981</option>
+                <option value="1969">1980</option>
+                <option value="1979">1979</option>
+                <option value="1980">1978</option>
+                <option value="1981">1977</option>
+                <option value="1982">1976</option>
+                <option value="1983">1975</option>
+                <option value="1984">1974</option>
+                <option value="1985">1973</option>
+                <option value="1986">1972</option>
+                <option value="1987">1971</option>
+                <option value="1988">1970</option>
+              </select>
+             </div>
+            </div>
+            <div class="signUp-gender mb-2">
+              <h6 class="f-13">Gender<i class="fa fa-question-circle ms-1 user-input-clr" aria-hidden="true"></i>
+              </h6>
+             <div class="d-flex justify-content-start align-items-center">
+               <div class="gender me-3 d-flex justify-content-between align-items-center form-check ">
+                 <label for="male" class="pe-4">Male</label>
+                 <input type="radio" name="Gender" id="male">
+               </div>
+               <div class="gender d-flex justify-content-between align-items-center">
+                 <label for="female" class="pe-4">Female</label>
+                 <input type="radio" name="Gender" id="female">
+               </div>
+             </div>
+            </div>
+            <p class="f-13">By clicking Sign Up, you agree to our <span class="clr-pink"><a href="javascript:void(0)"  class="forgot">Terms</a></span>, <span class="clr-pink"><a href="javascript:void(0)" class="forgot">Data Policy</a></span> and <span class="clr-pink"><a href="javascript:void(0)" class="forgot">Cookie Policy</a></span>. You may receive SMS notifications from us and can opt out at any time.</p>
+            <div class="text-center">
+              <button type="submit" class="btn green">Sign Up</button>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer border-0 d-block">
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Create Account Modal -->
+  <!-- ***********----------------------****************** -->
+  <!-- cookie modal -->
+  <div class="modal fade cookie" id="loginPgModal" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="modal-logo">
+            <img data-src="./assets/img/modal/modal-icon.png" alt="modal-img" class="lozad">
+          </div>
+        </div>
+        <div class="modal-body">
+          <h2 class="f-30 mb-3">Accept cookies from <span class="clr-pink">Vittle</span> in this browser?</h2>
+          <p class="f-15">We use cookies and similar technologies on our website and process personal data about you,
+            such as your IP address. We also share this data with third parties. Data processing may be done with your
+            consent or on the basis of a legitimate interest, which you can object to in the individual privacy
+            settings. You have the right to consent to essential services only and to modify or revoke your consent at a
+            later time in the <span class=" clr-pink forgot">Privacy Policy</span>.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn bg-green" data-bs-dismiss="modal">Accept All</button>
+          <button type="button" class="btn green" data-bs-dismiss="modal">Keep Browsing</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- cookie modal -->
+  <!-- ***********----------------------****************** -->
+  <script src="./assets/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/plugin.js"></script>
+  <script src="./assets/js/app.js"></script>
+
+
+
+</body>
+
+</html>
